@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AWS Homework</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1>User form</h1>
+<form id="addUserForm">
+	<input type="text" name="name" placeholder="Name">
+	<input type="text" name="age" placeholder="Age">
+	<input type="submit" value="Add" id="submit">
+
+</form>
+
+<h1>Users list</h1>
+<a id="refresh" href="javascript:void(0)">Refresh list</a>
+<ul id="users-header">
+	<li>
+		<div>Name</div>
+		<div>Age</div>
+		<div>Actions</div>
+	</li>
+</ul>
+<ul id="users">
+	<li>loading...</li>
+</ul>
+
+
+</body>
+</html>

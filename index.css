@@ -1,0 +1,30 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 150%;
+}
+
+#users,
+#users-header {
+    list-style: none;
+    padding: 0;
+    max-width: 50%;
+    margin: 0;
+}
+
+#users-header {
+    margin: 20px 0 0;
+}
+#users-header li {
+    font-weight: bold;
+}
+
+#users li,
+#users-header li {
+    display: flex;
+    margin: 0 0 5px 0;
+}
+
+#users li div,
+#users-header li div {
+    flex: 1;
+}
